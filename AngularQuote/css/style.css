@@ -1,0 +1,70 @@
+
+
+body{
+  background: #333333;
+  font-family: 'Futura PT Heavy', sans-serif;
+  text-transform:capitalize;
+  font-weight:700;
+  color:#ffffff;
+  font-size:20px;
+  max-width:600px;
+  letter-spacing:3px;
+  line-height:50px;
+  height:100vh;}
+img {
+  margin:5% 50%;
+}
+#quote{
+  position:absolute;
+  bottom:0;
+  right:0;
+  text-align:right;
+  margin:2% 2% 10% 40%;
+  font-size: 35px;
+  max-width:40%;
+  text-shadow: 1px 1px #777777;
+}
+button{
+  border-radius:5px;
+  background-color:#ffffff;
+  float:left;
+  margin:5px;
+  
+}
+#author{
+  position:absolute;
+  bottom:0;
+  right:0;
+  margin:5% 2%;
+}
+button:hover{
+  background:#222222;
+  color:#ffffff;
+  border-radius:5px;
+  
+}
+.buttons-of-fun {
+  position:absolute;
+  bottom:0;
+  right:0;
+  margin:2%;
+}
+@media (max-width: 1100px){
+  img{ 
+    margin:5%;  
+  
+  }
+}
+@media (max-width: 750px){
+  img{
+    max-width:50%;
+    margin:5%;
+  }
+  #quote{
+    width:100%;
+    margin-bottom:15%;
+  }
+  #by{
+    margin: 7% 2%;
+  }
+}
